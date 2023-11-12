@@ -12,7 +12,7 @@ const ShareToInstaBtn = () => {
   return (
     <div className="share-btn-cont">
         <button className="share-btn" onClick={handleShare}>
-            Share on Facebook
+            Կիսվել հոլովակով Ֆեյսբուքում
             <img src={facebook} className="facebook-icon" alt="facebook-icon" />
         </button>
     </div> 
