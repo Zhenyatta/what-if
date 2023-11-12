@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial ,'Patrick Hand', Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --pink: #E1656F;
+  }
+
+.container {
+    background-color: var(--pink);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+}
+
+.conatiner-mask {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url("../../assets/flowers-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    mask-image: url("../../assets/mask.svg");
+    -webkit-mask-image: url("../../assets/mask.svg");
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1000px){
+    .conatiner-mask{
+        mask-image: url("../../assets/mask-mobile.svg");
+        -webkit-mask-image: url("../../assets/mask-mobile.svg");
+    }
+}
