@@ -64,6 +64,11 @@
 }
 
 @media only screen and (max-width: 425px) {
+    .video-container {
+        grid-template-rows: 100px auto 30px;
+        gap:5px;
+    }
+
     .video {
         max-width: 180px;
         max-height: 320px;
