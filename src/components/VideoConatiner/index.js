@@ -10,7 +10,7 @@ const VideoContainer = () => {
                 <source src="https://www.youtube.com/embed/exF3s-66yUk" type="video/mp4" />
                 Sorry, your browser doesn't support videos.
             </video> process.env */}
-            <iframe className="video" src="https://www.youtube.com/embed/exF3s-66yUk" allowfullscreen></iframe>
+            <iframe className="video" src="https://www.youtube.com/embed/exF3s-66yUk" title="Liana x Garik by What If Flowers"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <p className="video-container-p" >What If flowers wishes you all the best !</p>
         </div>
     )
